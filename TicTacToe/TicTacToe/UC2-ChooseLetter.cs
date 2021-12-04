@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TicTacToe
 {
-    class UC2
+    class UC2_ChooseLetter
     {
     }
 }
