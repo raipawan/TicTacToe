@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TicTacToe
 {
-    class Class1
+    class UC2
     {
     }
 }
