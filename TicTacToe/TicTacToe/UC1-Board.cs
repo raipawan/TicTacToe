@@ -6,7 +6,7 @@ namespace TicTacToe
 {
     class Class1
     {
-        public static void CreateBoard()
+        public static char[] CreateBoard()
         {
             char[] board = new char[10];
 
@@ -14,6 +14,16 @@ namespace TicTacToe
             {
                 board[i] = ' ';
             }
+            return board;
+        }
+        public static char Input()
+        {
+
+            Console.WriteLine("choose your letter ");
+            char input = Convert.ToChar(Console.ReadLine());
+            char player = (input == 'X') ? 'X' : 'O';
+            return player;
+
         }
     }
 }
